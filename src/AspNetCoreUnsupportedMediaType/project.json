@@ -1,0 +1,27 @@
+﻿{
+  "version": "1.0.0",
+  "language": "English",
+  "authors": [ "Darryn Patterson" ],
+  "copyright": "Copyright 2016",
+  "title": "AspNetCoreUnsupportedMediaType",
+  "description": "AspNetCoreUnsupportedMediaType is an ASP.NET Core solution which requires all http requests to have the 'Content-Type' header set to 'application/json'.",
+  "projectUrl": "https://github.com/DarrynPatterson/AspNetCoreUnsupportedMediaType",
+  "packOptions": {
+    "licenseUrl": "https://github.com/DarrynPatterson/AspNetCoreUnsupportedMediaType/blob/master/LICENSE",
+    "tags": [ "UnsupportedMediaType", "415" ],
+    "owners": [ "Darryn Patterson" ],
+    "summary": "AspNetCoreUnsupportedMediaType is an ASP.NET Core solution which requires all http requests to have the 'Content-Type' header set to 'application/json'.",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DarrynPatterson/AspNetCoreUnsupportedMediaType"
+    }
+  },
+  "dependencies": {
+    "NETStandard.Library": "1.6.0",
+    "Microsoft.AspNetCore.Mvc.Core": "1.0.0",
+    "Newtonsoft.Json": "9.0.1"
+  },
+  "frameworks": {
+    "net461": {}
+  }
+}
